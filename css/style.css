@@ -4,8 +4,9 @@ body {
 }
 
 table {
+    margin: 0 auto;
+    border: 2px solid #eee;
     border-collapse: collapse;
-    border: 2px solid#eee;
 }
 
 thead,
@@ -40,8 +41,7 @@ td.today {
 }
 
 #prev,
-#title,
+#today,
 #next {
     cursor: pointer;
-    user-select: none;
 }
